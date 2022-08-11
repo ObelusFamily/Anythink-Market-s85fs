@@ -23,4 +23,4 @@ async def add_x(x):
     await conn.close()
 
 loop = asyncio.get_event_loop()
-loop.run_until_complete(add_x(100))
+loop.run_until_complete(add_x(1))
